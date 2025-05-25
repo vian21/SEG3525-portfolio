@@ -13,7 +13,6 @@ window.onload = (event) => {
 
   // Toggle theme on click
   themeToggle.addEventListener("click", function () {
-    console.log("clicked");
     const newTheme = body.style.backgroundColor === "white" ? "dark" : "light";
     applyThemeStyles(newTheme);
     localStorage.setItem("theme", newTheme);
